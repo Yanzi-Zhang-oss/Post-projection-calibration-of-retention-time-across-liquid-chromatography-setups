@@ -1,6 +1,7 @@
 function [output] = SOM_train(MIAOSHUFU,GROUP_NUM)
 
 
+   
 inputs = MIAOSHUFU';
 [inputs] = normalize_fangcha(inputs);  %方差回归
 
